@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tor Project</title>
+    <link rel="shortcut icon" href="286.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style type="text/css">
+        .image1 {
+            margin-left: 40px;
+            position: absolute;
+            margin-top: 33px;
+        }
+
+        .button1 {
+            background-color: #ffbf00;
+            color: black;
+            margin-left: 144px;
+            /* margin-top: 20px; */
+            padding: 7px 7px 7px 7px;
+            border-color: #ffbf00;
+            border-radius: 5px;
+            font-size: 16.5px;
+            font-weight: bold;
+            position: absolute;
+            margin-top: 33px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav1 {
+            margin-left: 530px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            margin-top: 45px;
+            position: absolute;
+
+        }
+
+        .nav1:hover {
+            color: rgb(225, 217, 217);
+        }
+
+        .nav2 {
+            margin-left: 590px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            margin-top: 45px;
+            position: absolute;
+            text-decoration: none;
+        }
+
+        .nav2:hover {
+            color: rgb(225, 217, 217);
+        }
+
+        .nav3 {
+            margin-left: 662px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            margin-top: 45px;
+            position: absolute;
+            text-decoration: none;
+        }
+
+        .nav3:hover {
+            color: rgb(225, 217, 217);
+        }
+
+        .nav4 {
+            margin-left: 758px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            margin-top: 45px;
+            position: absolute;
+            text-decoration: none;
+        }
+
+        .nav4:hover {
+            color: rgb(231, 227, 227);
+        }
+
+        .nav5 {
+            margin-left: 805px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            margin-top: 45px;
+            position: absolute;
+            text-decoration: none;
+        }
+
+        .nav5:hover {
+            color: rgb(225, 217, 217);
+        }
+
+        .navLag {
+            background-color: #59316B;
+            color: white;
+            border-color: #59316B;
+            margin-left: 1100px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            margin-top: 45px;
+            position: absolute;
+            width: 107px;
+        }
+
+        .button2 {
+            background-color: #59316B;
+            color: aliceblue;
+            border-color: white;
+            border-radius: 4px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 1220px;
+            margin-top: 35px;
+            padding: 10px 15px 10px 10px;
+            font-size: 14px;
+        }
+
+        .button2:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .navtext1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 90px;
+            /* line-height: 1.2; */
+            font-weight: lighter;
+            margin-left: 430px;
+            margin-top: 110px;
+            position: absolute;
+
+        }
+
+        .navtext2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 86px;
+            line-height: 1.2;
+            font-weight: 300;
+            margin-left: 480px;
+            margin-top: 245px;
+            position: absolute;
+
+        }
+
+        .navtext3 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 28px;
+            line-height: 1.2;
+            font-weight: 400;
+            margin-left: 270px;
+            margin-top: 370px;
+            position: absolute;
+
+        }
+
+        .buttnav {
+            background-color: #59316B;
+            margin-left: -0.5%;
+            margin-right: auto;
+            padding-bottom: 50px;
+        }
+
+        .button3 {
+            background-color: #59316B;
+            color: white;
+            margin-left: 590px;
+            margin-top: -30px;
+            padding: 12px 20px 12px 20px;
+            border-color: white;
+            border-radius: 4px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+
+        }
+
+        .button3:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .secimage1 {
+            height: 230px;
+            width: 340px;
+            margin-left: 260px;
+            margin-top: 130px;
+        }
+
+        .img1par1 {
+            color: #59316B;
+            font-size: 22px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 680px;
+            margin-top: -235px;
+        }
+
+        .img1par2 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 680px;
+            margin-top: -7px;
+        }
+
+        .img1par3 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 680px;
+            margin-top: -12px;
+        }
+
+        .img1par4 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 680px;
+            margin-top: -12px;
+        }
+
+        .secimage2 {
+            height: 260px;
+            width: 215px;
+            margin-right: 295px;
+            margin-top: -30px;
+            float: right;
+        }
+
+        .img2par1 {
+            color: #59316B;
+            font-size: 22px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 220px;
+            margin-top: 225px;
+
+        }
+
+        .img2par2 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 220px;
+            margin-top: -10px;
+        }
+
+        .img2par3 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 220px;
+            margin-top: -15px;
+        }
+
+        .img2par4 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 220px;
+            margin-top: -15px;
+        }
+
+        .secimage3 {
+            height: 285px;
+            width: 340px;
+            margin-left: 240px;
+            margin-top: 130px;
+        }
+
+        .img3par1 {
+            color: #59316B;
+            font-size: 22px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 700px;
+            margin-top: -235px;
+        }
+
+        .img3par2 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 700px;
+            margin-top: -10px;
+        }
+
+        .img3par3 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 700px;
+            margin-top: -15px;
+        }
+
+        .img3par4 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 700px;
+            margin-top: -15px;
+        }
+
+        .secimage4 {
+            height: 270px;
+            width: 215px;
+            margin-right: 295px;
+            margin-top: -30px;
+            float: right;
+        }
+
+        .img4par1 {
+            color: #59316B;
+            font-size: 22px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 220px;
+            margin-top: 225px;
+
+        }
+
+        .img4par2 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 220px;
+            margin-top: -10px;
+        }
+
+        .img4par3 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 220px;
+            margin-top: -15px;
+        }
+
+        .img4par4 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 220px;
+            margin-top: -15px;
+        }
+
+        .secimage5 {
+            height: 285px;
+            width: 340px;
+            margin-left: 240px;
+            margin-top: 130px;
+        }
+
+        .img5par1 {
+            color: #59316B;
+            font-size: 22px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 700px;
+            margin-top: -235px;
+        }
+
+        .img5par2 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 700px;
+            margin-top: -10px;
+        }
+
+        .img5par3 {
+            color: #000000;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 700px;
+            margin-top: -15px;
+        }
+
+        .textabus {
+            color: #59316B;
+            margin-left: 185px;
+            margin-top: 225px;
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .textpbig {
+            color: #484848;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 65px;
+            line-height: 5rem;
+            margin-left: 185px;
+            margin-right: 250px;
+            margin-top: 7px;
+            font-weight: 100;
+        }
+
+        .textp2 {
+            color: #484848;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 65px;
+            line-height: 5rem;
+            margin-left: -5px;
+            margin-right: 250px;
+            margin-top: 7px;
+            font-weight: 100;
+            color: #613d71;
+        }
+
+        .textp2:hover {
+            color: #53196d;
+            text-decoration: underline;
+        }
+
+        .footer1 {
+            padding-bottom: 10px;
+            background-color: #53196d;
+            color: white;
+            margin-top: 100px;
+            margin-right: -0.5%;
+            margin-left: -10px;
+            padding-top: 80px;
+        }
+
+        .footertext {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            font-weight: 400;
+            padding-left: 547px;
+            padding-top: 20px;
+            position: absolute;
+        }
+
+        .footertext1 {
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 550px;
+            padding-top: 62px;
+            position: absolute;
+        }
+
+        .footertext2 {
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 550px;
+            padding-top: 91px;
+            position: absolute;
+        }
+
+        .footerbutton {
+            background-color: #ffffff;
+            color: #59316B;
+            margin-left: 552px;
+            margin-top: 145px;
+            padding: 10px 30px 10px 15px;
+            border-color: white;
+            border-radius: 4px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 17px;
+            font-weight: 400;
+
+        }
+
+        .footertext3 {
+            font-size: 17px;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 300px;
+            padding-top: 60px;
+            position: absolute;
+        }
+
+        .footertext4 {
+            font-size: 15px;
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 1055px;
+            padding-top: 70px;
+            font-weight: 100;
+            position: absolute;
+        }
+
+        .footertext5 {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 300px;
+            padding-top: 95px;
+            position: absolute;
+
+        }
+
+        .footertext6 {
+            font-size: 15px;
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 1052px;
+            padding-top: 100px;
+            font-weight: 100;
+            position: absolute;
+        }
+
+        .footertext7 {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 300px;
+            padding-top: 120px;
+            position: absolute;
+        }
+
+        .footertext8 {
+            font-size: 15px;
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 1052px;
+            padding-top: 126px;
+            font-weight: 100;
+            position: absolute;
+        }
+
+        .footertext9 {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 300px;
+            padding-top: 145px;
+            position: absolute;
+        }
+
+        .footertext10 {
+            font-size: 15px;
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 1053px;
+            padding-top: 150px;
+            font-weight: 100;
+            position: absolute;
+        }
+
+        .footertext11 {
+            font-size: 15px;
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 1054px;
+            padding-top: 175px;
+            font-weight: 100;
+            position: absolute;
+        }
+
+        .footerbutton1 {
+            background-color: #ffbf00;
+            color: black;
+            margin-left: -60px;
+            padding: 7px 7px 7px 7px;
+            border-color: #ffbf00;
+            border-radius: 5px;
+            font-size: 16.5px;
+            font-weight: bold;
+            margin-left: 1055px;
+            margin-top: 210px;
+
+        }
+
+        .footertext12 {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            padding-top: 50px;
+            padding-left: 300px;
+            position: absolute;
+            color: #e2e1e1;
+        }
+
+        .footertext13 {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            padding-top: 100px;
+            padding-left: 300px;
+            position: absolute;
+
+        }
+
+        .footerbutton2 {
+            background-color: #3c2148;
+            padding: 9px 13px 9px 13px;
+            color: #ffffff;
+            border-color: #553364;
+            border: none;
+            border-radius: 7px;
+            margin-left: 300px;
+            margin-top: 160px;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .footertext14 {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            padding-left: 175px;
+            padding-top: 70px;
+            position: absolute;
+        }
+
+        .navLag1 {
+            background-color: #613d71;
+            color: white;
+            border-radius: 4px;
+            border-color: #613d71;
+            padding-left: -20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: -20px;
+            /* padding: 10px 1px 10px 1px; */
+            margin-left: 1150px;
+            margin-top: 70px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .span1arrow {
+            padding-left: 734px;
+            padding-top: 160px;
+            position: absolute;
+            color: #3c2148;
+        }
+    </style>
+</head>
+
+<body>
+    <header
+        style="background-color: #59316B; color: white; padding-bottom: 15px; margin-left: -10px; margin-top: -10px; margin-right: -0.5%;">
+        <nav>
+            <div>
+                <a href="http://127.0.0.1:5500/practice/TOR.HTML"><img src="286.png" height="50px" width="80px"
+                        class="image1"></a>
+                <a href="https://donate.torproject.org/"><button class="button1">Donate Now</button></a>
+            </div>
+            <div class="navbar a">
+                <a class="nav1" href="https://www.torproject.org/about/history/">About</a>
+                <a class="nav2" href="https://support.torproject.org/">Support</a>
+                <a class="nav3" href="https://community.torproject.org/">Community</a>
+                <a class="nav4" href="https://blog.torproject.org/">Blog</a>
+                <a class="nav5" href="https://donate.torproject.org/">Donate</a>
+            </div>
+            <select class="navLag">
+                <option style="background-color: white; color: black;">English (en)</option>
+                <option style="background-color: white; color: black;">Català (ca)</option>
+                <option style="background-color: white; color: black;">Deutsch (de)</option>
+                <option style="background-color: white; color: black;">Español (es)</option>
+                <option style="background-color: white; color: black;">فارسی (fa)</option>
+                <option style="background-color: white; color: black;">Français (fr)</option>
+                <option style="background-color: white; color: black;">Íslenska (is)</option>
+                <option style="background-color: white; color: black;">Italiano (it)</option>
+                <option style="background-color: white; color: black;">日本語 (ja)</option>
+                <option style="background-color: white; color: black;">ქართული (ka)</option>
+                <option style="background-color: white; color: black;">ភាសាខ្មែរ (km)</option>
+                <option style="background-color: white; color: black;">한국어(ko)</option>
+                <option style="background-color: white; color: black;">Português Brasil (pt-BR)</option>
+                <option style="background-color: white; color: black;">Русский (ru)</option>
+                <option style="background-color: white; color: black;">Shqip (sq)</option>
+                <option style="background-color: white; color: black;">Kiswahili (sw)</option>
+            </select>
+
+            <button class="button2">Download Tor Browser</button>
+            </div>
+
+
+            <div
+                style="background-color: #59316B; color: white; padding-bottom: 500px; margin-left: -10px; margin-right: 0.5%;">
+                <a class="navtext1">Browse Privately.</a>
+                <a class="navtext2">Explore Freely.</a>
+                <a class="navtext3">Defend yourself against tracking and surveillance. Circumvent censorship.</a>
+            </div>
+            <div class="buttnav">
+                <button class="button3">Download Tor Browser</button>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <img src="287.png" class="secimage1">
+            <p class="img1par1">BLOCK TRACKERS</p>
+            <p class="img1par2">Tor Browser isolates each website you visit so third-party trackers</p>
+            <p class="img1par3">and ads can't follow you. Any cookies automatically clear when</p>
+            <p class="img1par4">you're done browsing. So will your browsing history.</p>
+        </div>
+
+        <div>
+            <img src="288.png" class="secimage2">
+            <p class="img2par1">DEFEND AGAINST SURVEILLANCE</p>
+            <p class="img2par2">Tor Browser prevents someone watching your connection from</p>
+            <p class="img2par3">knowing what websites you visit. All anyone monitoring your</p>
+            <p class="img2par4">browsing habits can see is that you're using Tor.</p>
+        </div>
+
+        <div>
+            <img src="289.jpg" class="secimage3">
+            <p class="img3par1">RESIST FINGERPRINTING</p>
+            <p class="img3par2">Tor Browser aims to make all users look the same, making it</p>
+            <p class="img3par3">difficult for you to be fingerprinted based on your browser and</p>
+            <p class="img3par4">device information.</p>
+        </div>
+
+        <div>
+            <img src="290.jpg" class="secimage4">
+            <p class="img4par1">MULTI-LAYERED ENCRYPTION</p>
+            <p class="img4par2">Your traffic is relayed and encrypted three times as it passes over</p>
+            <p class="img4par3">the Tor network. The network is comprised of thousands of</p>
+            <p class="img4par4">volunteer-run servers known as Tor relays.</p>
+        </div>
+
+        <div>
+            <img src="291.png" class="secimage5">
+            <p class="img5par1">BROWSE FREELY</p>
+            <p class="img5par2">With Tor Browser, you are free to access sites your home network</p>
+            <p class="img5par3">may have blocked.</p>
+
+        </div>
+
+        <div class="textabus">ABOUT US</div>
+        <div class="textpbig">
+            <a>We believe everyone should be able</a>
+            <a>to explore the internet with privacy.</a>
+            <a>We are the Tor Project, a 501(c)(3) US</a>
+            <a>nonprofit. We advance human rights</a>
+            <a>and defend your privacy online</a>
+            <a>through free software and open</a>
+            <a>networks.<a href="https://www.torproject.org/about/people" class="textp2" style="text-decoration: none;">
+                    Meet our team.</a></a>
+        </div>
+    </section>
+
+    <footer class="footer1">
+        <div>
+            <table>
+                <tr>
+                    <td><a class="footertext">Download Tor Browser</a></td>
+                    <td class="span1arrow"><span class="material-symbols-outlined">
+                            arrow_downward
+                        </span></td>
+                </tr>
+            </table>
+            <a class="footertext1">Download Tor Browser to experience real private browsing without tracking,</a>
+
+            <a class="footertext2">surveillance, or censorship.</a>
+            <button class="footerbutton">Download Tor Browser</button>
+        </div>
+
+        <div>
+            <a class="footertext3">Our mission:</a>
+            <a class="footertext4">Jobs</a>
+
+            <a class="footertext5">To advance human rights and freedoms by creating and deploying free and</a>
+            <a class="footertext6">Blog</a>
+
+            <a class="footertext7">open source anonymity and privacy technologies, supporting their unrestricted</a>
+            <a class="footertext8">Contact</a>
+
+            <a class="footertext9">availability and use, and furthering their scientific and popular understanding.</a>
+            <a class="footertext10">Press</a>
+
+            <a class="footertext11">PrivChat</a>
+            <a href="https://donate.torproject.org/"><button class="footerbutton1">Donate Now</button></a>
+        </div>
+
+        <div>
+            <a class="footertext12">SUBSCRIBE TO OUR NEWSLETTER</a>
+            <a class="footertext13">Get monthly updates and opportunities from the Tor Project:</a>
+            <button class="footerbutton2">Sign up</button>
+        </div>
+
+        <div>
+            <a class="footertext14">Trademark, copyright notices, and rules for use by third parties can be found in our
+                <a href="https://www.torproject.org/about/trademark/"
+                    style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-left: 910px; padding-top: 73px; position: absolute; font-size: 18px;">FAQ
+                    .</a>
+                <select class="navLag1">
+                    <option style="background-color: white; color: black;">English (en)</option>
+                    <option style="background-color: white; color: black;">Català (ca)</option>
+                    <option style="background-color: white; color: black;">Deutsch (de)</option>
+                    <option style="background-color: white; color: black;">Español (es)</option>
+                    <option style="background-color: white; color: black;">فارسی (fa)</option>
+                    <option style="background-color: white; color: black;">Français (fr)</option>
+                    <option style="background-color: white; color: black;">Íslenska (is)</option>
+                    <option style="background-color: white; color: black;">Italiano (it)</option>
+                    <option style="background-color: white; color: black;">日本語 (ja)</option>
+                    <option style="background-color: white; color: black;">ქართული (ka)</option>
+                    <option style="background-color: white; color: black;">ភាសាខ្មែរ (km)</option>
+                    <option style="background-color: white; color: black;">한국어(ko)</option>
+                    <option style="background-color: white; color: black;">Português Brasil (pt-BR)</option>
+                    <option style="background-color: white; color: black;">Русский (ru)</option>
+                    <option style="background-color: white; color: black;">Shqip (sq)</option>
+                    <option style="background-color: white; color: black;">Kiswahili (sw)</option>
+                </select>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
